@@ -1,9 +1,10 @@
 // scss-docs-start theme-color-variables
-$primary: #2b95d5;
-$secondary: #95ecc3;
-$success: #2b95d5;
-$info: #2b95d5;
-$warning: #f54c65;
+$primary: #0098db;
+$secondary: #75efc0; // #DCEC88
+$success: #0098db;
+$warning: #ff3661;
+$info: #dcec88;
+$danger: #ff3661;
 $danger: #f54c65;
 $light: #f4f4f4;
 $dark: #3b3b3b;
@@ -19,7 +20,7 @@ $theme-colors: (
   "danger": $danger,
   "light": $light,
   "dark": $dark,
-) !default;
+);
 // scss-docs-end theme-colors-map
 
 // Grid containers
@@ -54,3 +55,5 @@ $grid-breakpoints: (
 
 //@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 //@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+$min-contrast-ratio: 3.2;
